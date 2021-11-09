@@ -44,6 +44,7 @@ public class Sonido{
                 JToggleButton jc = (JToggleButton) checkboxList.get(j + (16 * i));
                 if (jc.isSelected()) {
                     trackList[j] = key;
+                    //jc.setText("Hola");
                 } else {
                     trackList[j] = 0;
                 }
